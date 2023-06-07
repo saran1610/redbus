@@ -1,0 +1,34 @@
+.con-container {
+  height: 100vh;
+  background-position: center;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("../../../assets/images/city_scape.png");
+  .content {
+    margin: 120px 60px;
+    .title {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .para {
+      margin-bottom: 20px;
+    }
+    .login-btn {
+      display: inline-block;
+      text-decoration: none;
+      width: 150px;
+      padding: 6px 0;
+      text-align: center;
+      background-color: #d84f57;
+      color: #fff;
+    }
+  }
+  .app-img {
+    width: 70%;
+    height: auto;
+    margin: 100px;
+  }
+}

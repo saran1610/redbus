@@ -1,0 +1,16 @@
+.video-container {
+  background-color: #F1F1F1;
+  .video-content {
+    padding: 30px 0;
+    .video-h4 {
+      text-align: center;
+    }
+    .video-box {
+      width: 100%;
+      iframe {
+        display: block;
+        margin: 30px auto;
+      }
+    }
+  }
+}

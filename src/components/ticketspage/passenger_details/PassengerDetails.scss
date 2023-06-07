@@ -1,0 +1,211 @@
+.passenger-details {
+  .pass-title-area {
+    .pass-title {
+      font-size: 20px;
+      font-weight: 600;
+      padding: 10px 0;
+    }
+  }
+  .primo-banner {
+    padding: 16px;
+    background-color: #00377b;
+    gap: 20px;
+    .primo-svg-area {
+      .primo-svg {
+        width: 60px;
+      }
+    }
+    .primo-content {
+      .features {
+        color: #fff;
+      }
+      .slogan {
+        color: #fff;
+        font-size: 12px;
+      }
+    }
+  }
+  .passenger-info {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    gap: 10px;
+    .user-avatar {
+      width: 24px;
+      height: 24px;
+      .user-icon {
+        font-size: 16px;
+      }
+    }
+    .pi-title {
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+
+  .passenger-form {
+    .passenger-inputs {
+      margin: 10px 30px;
+      padding: 10px 20px;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+      .passenger-no-seat {
+        margin-bottom: 10px;
+      }
+      .name-input {
+        margin-bottom: 10px;
+      }
+      .gender-age {
+        justify-content: space-between;
+        .gender-radio {
+          .gender-radio-group {
+            display: flex;
+          }
+        }
+      }
+    }
+    .contact-details {
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      padding: 10px;
+      margin-top: 20px;
+      gap: 10px;
+      .contact-avatar {
+        width: 24px;
+        height: 24px;
+        .contact-icon {
+          font-size: 16px;
+          background-color: #f1af43;
+        }
+      }
+      .cd-title {
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+
+    .contact-inputs {
+      margin: 10px 30px;
+      padding: 10px 20px;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+      .contact-note {
+        width: 70%;
+        margin: 10px 0;
+        padding: 4px 6px;
+        border-radius: 4px;
+        font-size: 12px;
+        background-color: #fff181;
+      }
+      .passenger-email,
+      .passenger-mobile,
+      .residence-city,
+      .residence-state {
+        margin-bottom: 10px;
+      }
+    }
+
+    .subscribe-wa {
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      padding: 10px 30px;
+      margin-top: 20px;
+    }
+
+    .rap-area {
+      padding: 20px 30px;
+      justify-content: space-between;
+      .rap-content {
+        gap: 20px;
+        .rap-logo {
+          display: block;
+          width: 24px;
+          height: 32px;
+        }
+        .rap-info {
+          .rap-title {
+            font-weight: 600;
+            color: #435b73;
+          }
+          .rap-price {
+            .nineteen {
+              font-weight: 600;
+              color: #d84e55;
+            }
+          }
+        }
+      }
+      .tc-link {
+        a {
+          text-decoration: none;
+          font-weight: 600;
+        }
+      }
+    }
+    .rap-card-area {
+      padding: 10px 30px;
+      .rap-card-box {
+        padding: 0 30px;
+        .rap-card-img {
+          width: 70px;
+          margin: 10px auto;
+        }
+        .title-rap {
+          text-align: center;
+          font-size: 14px;
+          margin-bottom: 10px;
+          color: #38b77b;
+          font-weight: 600;
+        }
+        .desc-rap {
+          text-align: center;
+          font-size: 12px;
+        }
+      }
+    }
+    .protect-trip {
+      padding: 10px 30px;
+      border-bottom: 1px solid #ccc;
+      .label-content {
+        font-size: 14px;
+        .nineteen {
+          font-weight: 600;
+          color: #d84e55;
+        }
+        .per-passenger {
+          color: gray;
+        }
+        .terms-conditions {
+          text-decoration: none;
+          font-weight: 600;
+        }
+      }
+    }
+    .proceed-to-pay {
+      // position: fixed;
+      // left: 0;
+      // right: 0;
+      // bottom: 0;
+      // z-index: 999;
+      padding: 20px 30px;
+      .agree-note {
+        font-size: 14px;
+        a {
+          text-decoration: none;
+        }
+      }
+      .amount-pay {
+        margin: 10px 0;
+        justify-content: space-between;
+        align-items: center;
+        .total-amount {
+          font-weight: 600;
+        }
+        .pay-btn-area {
+          .pay-btn {
+            background-color: #e9555d;
+          }
+        }
+      }
+    }
+  }
+}

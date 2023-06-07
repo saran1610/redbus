@@ -1,0 +1,25 @@
+.global-container{
+  height: 70vh;
+  padding: 30px 0;
+  background-color: #F1F1F1;
+  .global-title-area{
+    .global-title{
+      text-align: center;
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+  }
+  .global-card-area{
+    margin: 30px 0;
+    text-align: center;
+    .site-link{
+      display: block;
+      .flag-img{
+        width: auto;
+        height: 80px;
+        margin: 20px auto;
+      }
+    }
+  }
+}

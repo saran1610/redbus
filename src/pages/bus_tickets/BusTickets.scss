@@ -1,0 +1,102 @@
+.bus-tickets {
+  .menu-area {
+    .search-results {
+      border: 1px solid #ccc;
+      padding: 20px 10px;
+      margin-top: 10px;
+      .bus-info-col {
+        .primo-logo {
+          width: 70px;
+        }
+        .travels-name {
+          font-weight: 600;
+          font-size: 14px;
+          margin-top: 10px;
+        }
+        .bus-type {
+          font-size: 12px;
+          margin-top: 20px;
+        }
+      }
+      .ratings-col {
+        .ratings-box {
+          width: 50px;
+          border-radius: 4px;
+          padding: 4px;
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          background-color: #38b87c;
+          margin-bottom: 20px;
+          .ratings-icon, .ratings{
+            color: #fff;
+            font-size: 14px;
+          }
+        }
+        .ratings-count-box {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          .ratings-count-icon, .ratings-count{
+            font-size: 14px;
+          }
+        }
+      }
+      .departure-col {
+        .departure-time {
+          font-weight: 600;
+          font-size: 18px;
+        }
+        .departure-date {
+          font-size: 14px;
+          margin-top: 10px;
+          color: #E9555D;
+        }
+        .departure-place {
+          margin-top: 10px;
+          font-size: 14px;
+        }
+      }
+      .duration-col {
+        .travel-duration {
+          font-size: 14px;
+        }
+      }
+      .arrival-col {
+        .arrival-time {
+          font-weight: 600;
+          font-size: 18px;
+        }
+        .arrival-date {
+          font-size: 14px;
+          margin-top: 10px;
+          color: #E9555D;
+        }
+        .arrival-place {
+          margin-top: 10px;
+          font-size: 14px;
+        }
+      }
+      .fare-col{
+        .fare{
+          .in-rupees{
+            font-size: 18px;
+            font-weight: 600;
+          }
+        }
+      }
+      .seats-col{
+        margin-top: 30px;
+        .avail-seats, .single-seats{
+          font-size: 14px;
+        }
+        .view-seats{
+          display: inline-block;
+          width: 160px;
+          margin-top: 30px;
+          background-color: #E9555D;
+        }
+      }
+    }
+  }
+}

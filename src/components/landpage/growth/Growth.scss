@@ -1,0 +1,28 @@
+.growth-container {
+  height: 60vh;
+  padding: 30px 0;
+  .growth-title-area {
+    .growth-title {
+      text-align: center;
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+  }
+  .growth-card-area {
+    margin: 30px 0;
+    .growth-card-box {
+      background-color: #fff;
+      padding: 30px;
+      height: 100%;
+      .growth-card-title,
+      .growth-count,
+      .growth-desc {
+        text-align: center;
+      }
+      .growth-count{
+        font-size: 40px;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.filter-menu{
+  .add-filter{
+    .add-filter-list{
+      list-style-type: none;
+      padding: 0 !important;
+      .list-item{
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}

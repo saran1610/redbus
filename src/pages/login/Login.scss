@@ -1,0 +1,35 @@
+.login-container {
+  height: 100vh;
+  .login-area {
+    margin-top: 100px;
+    // background-color: azure;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    .unlock{
+      font-weight: 500;
+      color: #fff;
+    }
+    .login-form {
+      padding: 10px;
+      .rb-logo-red {
+        width: 60px;
+        height: auto;
+        margin: 20px 0;
+      }
+      .signin-desc{
+        font-weight: 500;
+        color: #D84F57;
+        margin-bottom: 20px;
+      }
+      .form-area{
+        padding: 10px;
+        .login-ip, .login-btn{
+          margin-bottom: 10px;
+        }
+      }
+      .tc-pp{
+        text-align: center;
+        margin: 10px 0;
+      }
+    }
+  }
+}

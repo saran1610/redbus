@@ -1,0 +1,21 @@
+.tiles-container{
+  padding: 30px 10px 10px;
+  border-bottom: 1px solid #ccc;
+  .tiles-list{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    .tiles-img{
+      height: 120px;
+    }
+  }
+  .note-area{
+    padding: 6px 30px;
+    .shield-star{
+      font-size: 20px;
+    }
+    .note{
+      font-weight: 600;
+    }
+  }
+}

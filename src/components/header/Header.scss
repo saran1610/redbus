@@ -1,0 +1,79 @@
+.app-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  height: 60px;
+  background-color: #d84f57;
+  .MuiGrid-root {
+    padding: 0;
+    .nav-left,
+    .nav-right {
+      padding: 0 20px;
+      .links {
+        text-decoration: none;
+        color: #fff;
+        .user-icon {
+          font-size: 30px;
+        }
+        .chevron-down {
+          margin-left: 6px;
+        }
+      }
+      .manage-menu {
+        position: relative;
+        .manage-submenu {
+          display: none;
+          width: 160px;
+          position: absolute;
+          top: 30px;
+          background-color: white;
+          list-style-type: none;
+          padding: 10px !important;
+          .sub-links {
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 6px 0;
+          }
+          li:hover .sub-links {
+            color: gray;
+          }
+        }
+        &:hover .manage-submenu {
+          display: block;
+        }
+      }
+      .user-menu {
+        position: relative;
+        .user-submenu {
+          display: none;
+          width: 180px;
+          position: absolute;
+          top: 30px;
+          left: -50px;
+          background-color: white;
+          list-style-type: none;
+          padding: 10px !important;
+          .sub-links {
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 6px 0;
+          }
+          li:hover .sub-links {
+            color: gray;
+          }
+        }
+        &:hover .user-submenu {
+          display: block;
+        }
+      }
+    }
+  }
+}
